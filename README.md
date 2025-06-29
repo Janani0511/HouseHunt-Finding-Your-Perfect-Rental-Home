@@ -57,13 +57,12 @@ Visit: http://localhost:3000
 
 ## 📁 Folder Structure
 
-HouseHunt/
+'''HouseHunt/
 ├── backend/
 │ ├── config/
 │ │ └── connect.js
 │ ├── controllers/
 │ ├── middlewares/
-│ ├── node_modules/
 │ ├── routes/
 │ │ ├── adminRoutes.js
 │ │ ├── ownerRoutes.js
@@ -74,13 +73,11 @@ HouseHunt/
 │ │ └── userModel.js
 │ ├── uploads/
 │ ├── .env
-│ ├── .gitignore
 │ ├── index.js
 │ ├── package.json
 │ └── package-lock.json
 │
 ├── frontend/
-│ ├── node_modules/
 │ ├── public/
 │ ├── src/
 │ │ ├── images/
@@ -100,14 +97,8 @@ HouseHunt/
 │ │ └── index.js
 │ ├── .gitignore
 │ ├── package.json
-│ └── package-lock.json
-│
-├── Document/
-│ └── (Docs, reports, etc.)
-├── Video Demo/
-│ └── HouseHunt_Demo.mp4.mp4
-├── README.md
-## 📄 Project Documentation
+│ └── package-lock.json'''
+## 📄 Project Templates
 
 🗂️ [Click here to view the complete documentation folder on Google Drive](https://drive.google.com/drive/folders/1xwzjEgESzgOuzVqcWou_QP-NAqAUKMKJ?usp=sharing)
 
