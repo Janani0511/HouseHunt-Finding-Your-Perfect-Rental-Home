@@ -111,7 +111,8 @@ It includes:
 - 🔹 Database Schema & DFD
 - 🔹 Screenshots and Flowcharts
 - 🔹 Team Contributions and Learnings
- 👥 Team Members
+---
+👥 Team Members
 
 Janani
 
