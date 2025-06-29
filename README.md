@@ -37,26 +37,26 @@ This project was developed during the **SmartBridge Internship** as part of a pr
 ## 💻 Local Setup Instructions
 ## ⚙️ Backend Setup
 
-cd backend
+``cd backend
 npm install
 Create a .env file inside /backend:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 Start the backend server:
-npm start
+npm start``
 
 Frontend Setup
 
-cd frontend
+``cd frontend
 npm install
-npm start
+npm start``
 
 Visit: http://localhost:3000
 
 ## 📁 Folder Structure
 
-```HouseHunt/
+``HouseHunt/
 ├── backend/
 │ ├── config/
 │ │ └── connect.js
@@ -96,7 +96,7 @@ Visit: http://localhost:3000
 │ │ └── index.js
 │ ├── .gitignore
 │ ├── package.json
-│ └── package-lock.json(
+│ └── package-lock.json``
 
 ## 📄 Project Templates
 
