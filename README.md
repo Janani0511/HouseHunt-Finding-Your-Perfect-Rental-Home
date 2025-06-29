@@ -37,9 +37,8 @@ This project was developed during the **SmartBridge Internship** as part of a pr
 ## 💻 Local Setup Instructions
 ## ⚙️ Backend Setup
 
-**```bash
 cd backend
-npm install**(/'/'/')
+npm install
 Create a .env file inside /backend:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -57,7 +56,7 @@ Visit: http://localhost:3000
 
 ## 📁 Folder Structure
 
-'''HouseHunt/
+```HouseHunt/
 ├── backend/
 │ ├── config/
 │ │ └── connect.js
@@ -97,7 +96,8 @@ Visit: http://localhost:3000
 │ │ └── index.js
 │ ├── .gitignore
 │ ├── package.json
-│ └── package-lock.json'''
+│ └── package-lock.json(
+
 ## 📄 Project Templates
 
 🗂️ [Click here to view the complete documentation folder on Google Drive](https://drive.google.com/drive/folders/1xwzjEgESzgOuzVqcWou_QP-NAqAUKMKJ?usp=sharing)
