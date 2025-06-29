@@ -1,8 +1,6 @@
 🎥 [Watch Demo Video](https://github.com/Janani0511/HouseHunt-Finding-Your-Perfect-Rental-Home/blob/master/Video%20Demo/HouseHunt_Demo.mp4.mp4)
 # 🏡 HouseHunt – Finding Your Perfect Rental Home
 
-🎥 [Watch Demo Video](https://github.com/Janani0511/HouseHunt-Finding-Your-Perfect-Rental-Home/blob/master/Video%20Demo/HouseHunt_Demo.mp4.mp4)
-
 ---
 
 ## 📘 Project Overview
@@ -37,23 +35,28 @@ This project was developed during the **SmartBridge Internship** as part of a pr
 ---
 
 ## 💻 Local Setup Instructions
+## ⚙️ Backend Setup
 
-### 🔧 Backend Setup
-
-```bash
+**```bash
 cd backend
-npm install
+npm install**(/'/'/')
 Create a .env file inside /backend:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 Start the backend server:
 npm start
+
 Frontend Setup
+
 cd frontend
 npm install
 npm start
-Folder Structure
+
+Visit: http://localhost:3000
+
+## 📁 Folder Structure
+
 HouseHunt/
 ├── backend/
 │ ├── config/
@@ -104,7 +107,6 @@ HouseHunt/
 ├── Video Demo/
 │ └── HouseHunt_Demo.mp4.mp4
 ├── README.md
-#Document Templates
 ## 📄 Project Documentation
 
 🗂️ [Click here to view the complete documentation folder on Google Drive](https://drive.google.com/drive/folders/1xwzjEgESzgOuzVqcWou_QP-NAqAUKMKJ?usp=sharing)
@@ -115,9 +117,7 @@ It includes:
 - 🔹 Database Schema & DFD
 - 🔹 Screenshots and Flowcharts
 - 🔹 Team Contributions and Learnings
-
-Presentations and other resources
-Team Members
+-  👥 Team Members
 Janani
 
 Gayathri
