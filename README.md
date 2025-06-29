@@ -1,4 +1,5 @@
-🎥 [Watch Demo Video](https://github.com/Janani0511/HouseHunt-Finding-Your-Perfect-Rental-Home/blob/main/Video%20Demo/HouseHunt_Demo.mp4.mp4)
+🎥 [Watch Demo Video](https://github.com/Janani0511/HouseHunt-Finding-Your-Perfect-Rental-Home/blob/master/Video%20Demo/HouseHunt_Demo.mp4.mp4)
+
 
 
 # Getting Started with Create React App
