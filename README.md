@@ -123,8 +123,10 @@ Reshma
 Srija
 
 Gratitude to SmartBridge and our mentors for guiding us through this enriching internship experience.
+---
 
 🌱 Future Enhancements
+
 📲 Mobile version (React Native)
 
 📍 Google Maps integration
