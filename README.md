@@ -1,78 +1,140 @@
 🎥 [Watch Demo Video](https://github.com/Janani0511/HouseHunt-Finding-Your-Perfect-Rental-Home/blob/master/Video%20Demo/HouseHunt_Demo.mp4.mp4)
+# 🏡 HouseHunt – Finding Your Perfect Rental Home
 
+🎥 [Watch Demo Video](https://github.com/Janani0511/HouseHunt-Finding-Your-Perfect-Rental-Home/blob/master/Video%20Demo/HouseHunt_Demo.mp4.mp4)
 
+---
 
-# Getting Started with Create React App
+## 📘 Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**HouseHunt** is a full-stack web application built with the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**. It streamlines the rental process by connecting homeowners with potential tenants through an intuitive platform. Renters can browse and book properties, while owners can manage listings and approve bookings. Admins oversee all user and property activity.
 
-## Available Scripts
+This project was developed during the **SmartBridge Internship** as part of a practical training experience.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔐 **User Authentication** – Renter, Owner, and Admin roles  
+- 🏠 **Property Listings** – Add, update, delete, and view properties  
+- 🔍 **Advanced Search** – Filter properties by location, price, and type  
+- 📅 **Booking System** – Renters book, owners approve/reject  
+- ⚙️ **Admin Dashboard** – Monitor and control platform users and listings  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Technology  | Description                    |
+|-------------|--------------------------------|
+| MongoDB     | NoSQL Database                 |
+| Express.js  | Backend API Framework          |
+| React.js    | Frontend Library               |
+| Node.js     | Backend Runtime                |
+| Bootstrap   | Responsive UI Framework        |
+| JWT         | Token-based Authentication     |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Local Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔧 Backend Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd backend
+npm install
+Create a .env file inside /backend:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+Start the backend server:
+npm start
+Frontend Setup
+cd frontend
+npm install
+npm start
+Folder Structure
+HouseHunt/
+├── backend/
+│ ├── config/
+│ │ └── connect.js
+│ ├── controllers/
+│ ├── middlewares/
+│ ├── node_modules/
+│ ├── routes/
+│ │ ├── adminRoutes.js
+│ │ ├── ownerRoutes.js
+│ │ └── userRoutes.js
+│ ├── schemas/
+│ │ ├── bookingModel.js
+│ │ ├── propertyModel.js
+│ │ └── userModel.js
+│ ├── uploads/
+│ ├── .env
+│ ├── .gitignore
+│ ├── index.js
+│ ├── package.json
+│ └── package-lock.json
+│
+├── frontend/
+│ ├── node_modules/
+│ ├── public/
+│ ├── src/
+│ │ ├── images/
+│ │ ├── modules/
+│ │ │ ├── admin/
+│ │ │ ├── common/
+│ │ │ │ ├── ForgotPassword.jsx
+│ │ │ │ ├── Home.jsx
+│ │ │ │ ├── Login.jsx
+│ │ │ │ └── Register.jsx
+│ │ │ ├── user/
+│ │ │ ├── Owner/
+│ │ │ └── renter/
+│ │ ├── AllPropertiesCards.jsx
+│ │ ├── App.js
+│ │ ├── App.css
+│ │ └── index.js
+│ ├── .gitignore
+│ ├── package.json
+│ └── package-lock.json
+│
+├── Document/
+│ └── (Docs, reports, etc.)
+├── Video Demo/
+│ └── HouseHunt_Demo.mp4.mp4
+├── README.md
+#Document Templates
+## 📄 Project Documentation
 
-### `npm run eject`
+🗂️ [Click here to view the complete documentation folder on Google Drive](https://drive.google.com/drive/folders/1xwzjEgESzgOuzVqcWou_QP-NAqAUKMKJ?usp=sharing)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+It includes:
+- 🔹 Project Overview & Objective
+- 🔹 Feature List and User Roles
+- 🔹 Database Schema & DFD
+- 🔹 Screenshots and Flowcharts
+- 🔹 Team Contributions and Learnings
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Presentations and other resources
+Team Members
+Janani
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Gayathri
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Reshma
 
-## Learn More
+Srija
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Gratitude to SmartBridge and our mentors for guiding us through this enriching internship experience.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🌱 Future Enhancements
+📲 Mobile version (React Native)
 
-### Code Splitting
+📍 Google Maps integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🔔 Notifications system
 
-### Analyzing the Bundle Size
+💬 Live Chat between renters and owners
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-### Document Template
-You can find the document templates for this project here:
-https://drive.google.com/drive/folders/1xwzjEgESzgOuzVqcWou_QP-NAqAUKMKJ?usp=sharing
+📊 Admin Analytics Dashboard
