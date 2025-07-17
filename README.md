@@ -1,4 +1,4 @@
-watch video demo Video Demo/video-demo for house hunt (1) (1).mp4
+
 # 🏡 HouseHunt – Finding Your Perfect Rental Home
 
 ---
