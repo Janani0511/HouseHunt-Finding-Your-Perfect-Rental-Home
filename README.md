@@ -53,6 +53,7 @@ Frontend Setup
 npm install
 npm start
 ```
+---
 
 Visit: http://localhost:3000
 
@@ -100,10 +101,12 @@ Visit: http://localhost:3000
 │ ├── package.json
 │ └── package-lock.json
 ```
+---
 
 ## 📄 Project Templates
 
 🗂️ [Click here to view the complete documentation folder on Google Drive](https://drive.google.com/drive/folders/1xwzjEgESzgOuzVqcWou_QP-NAqAUKMKJ?usp=sharing)
+---
 
 It includes:
 - 🔹 Project Overview & Objective
@@ -121,6 +124,7 @@ Gayathri
 Reshma
 
 Srija
+---
 
 Gratitude to SmartBridge and our mentors for guiding us through this enriching internship experience.
 ---
